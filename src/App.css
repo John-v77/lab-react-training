@@ -1,3 +1,23 @@
 .App {
   text-align: center;
 }
+
+
+.idCard-box{
+  width: 35%;
+  border: 2px solid black;
+  display: flex;
+  margin: 1vh;
+}
+
+.idCard-box img{
+  width: 10vw;
+  height: 10vw;
+  padding: 0.5vw;
+}
+
+.idCard-box div{
+  text-align: left;
+  padding-left: 30px;
+}
+
