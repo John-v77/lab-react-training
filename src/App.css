@@ -21,3 +21,11 @@
   padding-left: 30px;
 }
 
+
+.box-black-border{
+  width: 33%;
+  border: 2px solid black;
+  padding: 1vw;
+  margin:1vh;
+  text-align: left;
+}
