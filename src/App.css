@@ -29,3 +29,31 @@
   margin:1vh;
   text-align: left;
 }
+
+.creditCards-box{
+  display: flex;
+}
+
+.credit-Card{
+  margin:1vw;
+  padding: 1vw;
+  border-radius: 6px;
+  border: 1px solid black;
+  width: 18vw;
+  height: 8.5vw;
+}
+
+.credit-Card p{
+  padding-left: 20px;
+  text-align: left;
+}
+
+.credit-Card p:nth-child(1){
+  text-align: right;
+}
+
+.credit-Card p:nth-child(2){
+  font-size: 1.5em;
+  margin: 0;
+  text-align: center;
+}
