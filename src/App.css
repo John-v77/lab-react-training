@@ -43,6 +43,13 @@
   height: 8.5vw;
 }
 
+.credit-Card img{
+  height: 2vh;
+}
+
+.credit-Card div{
+  text-align: right;
+}
 .credit-Card p{
   padding-left: 20px;
   text-align: left;
