@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+h4{
+  text-align: left;
+  padding-left: 12.5vw;
+}
 
 .idCard-box{
   width: 35%;
@@ -63,4 +67,30 @@
   font-size: 1.5em;
   margin: 0;
   text-align: center;
+}
+
+.rating{
+  font-size: 2em;
+}
+
+.driversCard{
+  margin: 0.5em;
+  padding: 1vw;
+  display: flex;
+  align-items: center;
+  background-color: #455EB5;
+  border-radius: 6px;
+  color: white;
+  width: 39em;
+}
+
+.driversCard img{
+  border-radius: 50%;
+  height: 9em;
+  width: 9em;
+  margin: 0 2em 0 5vw;
+}
+
+.driversCard div{
+  text-align: left;
 }

@@ -17,7 +17,7 @@ function Rating(props) {
 
     }
     return (
-        <div className="box-black-border">
+        <div className="rating">
             {showRating()}
         </div>
     );
