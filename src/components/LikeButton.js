@@ -7,7 +7,7 @@ function LikeButton(props) {
 
     const colors = ['purple','blue','green','orange','red']
     return (
-        <div>
+        <div className="box-black-border">
             <button onClick={increment} style={{backgroundColor:colors[clikedBtn]}} className="Btn-Color-Changed"> Like </button>
         </div>
     );

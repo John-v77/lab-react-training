@@ -8,7 +8,7 @@ import CreditCard from './components/CreditCard';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
 import LikeButton from './components/LikeButton';
-
+import ClickablePicture from './components/ClickablePicture';
 function App() {
   return (
     <div className="App">
@@ -125,6 +125,14 @@ function App() {
             <h4>Iteration 8 | State: LikeButton</h4>
 
             <LikeButton/>
+
+
+            {/* Iteration 9: State: ClickablePicture */}
+            <h4>Iteration 9: State: ClickablePicture</h4>
+            <ClickablePicture
+              img='/img/persons/maxence-glasses.png'
+              imgClicked='/img/persons/maxence.png'
+            />
 
 
 
