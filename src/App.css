@@ -94,3 +94,13 @@ h4{
 .driversCard div{
   text-align: left;
 }
+
+
+.Btn-Color-Changed{
+  width: 8em;
+  height: 3em;
+  border-radius: 3px;
+  color: white;
+  float: left;
+  margin: 3vw 0 3vw 22em ;
+}
