@@ -8,15 +8,15 @@ h4{
 }
 
 .idCard-box{
-  width: 35%;
+  width: 40em;
   border: 2px solid black;
   display: flex;
-  margin: 1vh;
+  margin: 1em;
 }
 
 .idCard-box img{
-  width: 10vw;
-  height: 10vw;
+  width: 12em;
+  height: 12em;
   padding: 0.5vw;
 }
 
@@ -27,7 +27,7 @@ h4{
 
 
 .box-black-border{
-  width: 33%;
+  width: 39em;
   border: 2px solid black;
   padding: 1vw;
   margin:1vh;
@@ -114,4 +114,40 @@ h4{
 .dice{
   width: 7em;
   height: 7em;
+}
+
+.carousel{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 39em;
+  border: 2px solid black;
+  padding: 1vw;
+  margin:1vh;
+}
+
+.carousel img{
+  width: 10em;
+  height: 10em;
+}
+
+.carousel button{
+  height: 2.5em;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  
+  
+}
+
+.carousel button:nth-child(1){
+  border-right: 30px solid grey;
+  border-left: 0;
+  
+}
+
+.carousel button:nth-child(3){
+  border-left: 30px solid grey;
+  border-right: 0;
+  
 }
