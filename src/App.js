@@ -9,6 +9,7 @@ import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
 import LikeButton from './components/LikeButton';
 import ClickablePicture from './components/ClickablePicture';
+import Dice from './components/Dice';
 function App() {
   return (
     <div className="App">
@@ -135,6 +136,10 @@ function App() {
             />
 
 
+            {/* Iteration 10 | State: Dice */}
+            <h4>Iteration 10 | State: Dice</h4>
+
+            <Dice/>
 
 
     </div>
