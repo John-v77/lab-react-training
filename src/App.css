@@ -151,3 +151,26 @@ h4{
   border-right: 0;
   
 }
+
+.numbersTable{
+  width: 39em;
+  border: 2px solid black;
+  margin: 0.5em;
+  padding: 2.5em 0 2.5em 3em ;
+
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.numbersTable li{
+  list-style-type: none;
+  margin:0;
+  border: 1px solid black;
+  width: 7em;
+  height: 7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

@@ -9,7 +9,7 @@ function Dice(props) {
         let num = 1 + Math.floor(Math.random()*6)
         let imgLink = `/img/dice${num}.png`
 
-        setTimeout(setDice(imgLink),1000) 
+        setTimeout(setDice(imgLink),500) 
     }
 
     return (
